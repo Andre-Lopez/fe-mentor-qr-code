@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App h-full w-full">
       <div className="background bg-light-grey h-full w-full overflow-auto flex items-center">
-        <div className="card bg-white rounded-lg mx-auto w-60 drop-shadow-lg w-66">
+        <div className="card bg-white rounded-lg mx-auto xs:w-72 drop-shadow-lg w-64">
           <div className="image-container flex flex-wrap justify-center p-4">
             <img src="image-qr-code.png" alt="qr code" className="image rounded-lg" />
           </div>
